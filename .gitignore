@@ -1,0 +1,39 @@
+# Obsidian関連
+.obsidian/cache
+.obsidian/workspace.json
+.obsidian/workspace
+.trash/
+
+# OS関連
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# AWS S3認証情報など
+.env
+.aws/
+
+# 画像のキャッシュファイル
+.imagecache/
+
+# Ankiの同期一時ファイル
+*.ankiconnect
+
+# モバイル同期の一時ファイル
+.mobile-sync/
+
+# その他
+*.tmp
+*.temp
+*.log
+
+# Cline
+memory-bank/
+
+# Terraform
+terraform/s3/terraform.tfvars
+terraform/s3/terraform.auto.tfvars
+**/.terraform/
+**/terraform.tfstate
+**/terraform.tfstate.backup
+# .terraform.lock.hclはコミットすべきファイルなので除外しない

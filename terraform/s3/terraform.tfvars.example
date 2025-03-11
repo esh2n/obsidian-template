@@ -1,0 +1,16 @@
+# サンプル設定ファイル
+# 実際に使用する場合は、このファイルをコピーして terraform.tfvars という名前で保存し、
+# 値を適切に変更してください
+
+# バケット名（グローバルで一意である必要があります）
+bucket_name = "your-unique-obsidian-images-bucket"
+
+# 環境設定
+environment = "dev" # dev, staging, prod など
+
+# AWS リージョン
+aws_region = "ap-northeast-1" # 東京リージョン
+
+# AWS認証情報
+aws_access_key = "あなたのAWSアクセスキーを入力"
+aws_secret_key = "あなたのAWSシークレットキーを入力"
